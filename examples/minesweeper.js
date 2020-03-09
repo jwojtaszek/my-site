@@ -2,7 +2,7 @@
 const numberOfBombs = 10;
 const matrixSize = 9;
 const boardSize="9x9";
-const theme="url('images/minesweeper.png') "	// theme could be changed with another sprite (cells dimension=16px)
+const theme="url('Images/minesweeper.png') "	// theme could be changed with another sprite (cells dimension=16px)
 
 var b = jsboard.board({attach:"game", size:boardSize});
 b.style({borderSpacing: "0px", border:"1px solid #CCC"});
