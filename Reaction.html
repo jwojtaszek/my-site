@@ -19,17 +19,17 @@ function remark(responseTime)
 {
 	var responseString="";
 	if (responseTime < 0.10)
-		responseString="Well done!";
+		responseString="YOU'RE PROOOOO!!!!";
 	if (responseTime >= 0.10 && responseTime < 0.20)
-		responseString="Nice!";
+		responseString="Impressive";
 	if (responseTime >=0.20 && responseTime < 0.30)
-		responseString="Could be better...";
+		responseString="Do Better";
 	if (responseTime >=0.30 && responseTime < 0.60)
-		responseString="Keep practising!";
+		responseString="You Need More Practice";
 	if (responseTime >=0.60 && responseTime < 1)
-		responseString="Have you been drinking?";
+		responseString="Are You High Like John";
 	if (responseTime >=1)
-		responseString="Did you fall asleep?";
+		responseString="You're Asleep";
 
 	return responseString;
 }
