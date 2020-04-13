@@ -146,6 +146,34 @@ li.dropdown {
 }
 
 </style>
+<style>
+.button {
+  padding: 10px 60px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #01004d;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 0 5px #000000;
+}
+
+.button:hover {background-color: #01021c}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 8px #666;
+  transform: translateY(4px);
+}
+</style>
+<body>
+
+<input class="button" value="start" onClick="startit()">
+<input class="button" value="stop" onClick="stopTest()">
+
+</body>
   <ul>
   <li><a href="/">Home</a></li>
   </ul>
@@ -172,6 +200,4 @@ Change background color in:
 <option>cornflowerblue
 <option>darkolivegreen
 </select>
-<input type="button" value="start" onClick="startit()">
-<input type="button" value="stop" onClick="stopTest()">
 </form>
