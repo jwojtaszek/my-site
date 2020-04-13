@@ -45,6 +45,7 @@ function stopTest()
 		alert("Your response time is: " + responseTime + " seconds " + "\n" + remark(responseTime));
 		startPressed=false;
 		bgChangeStarted=false;
+        document.body.style.backgroundColor = "#212F3C";
 	}
 	else
 	{
@@ -185,7 +186,7 @@ li.dropdown {
 .button1:hover {background-color: #ff2c21}
 
 .button1:active {
-  background-color: #3e8e41;
+  background-color: #ba0c00;
   box-shadow: 0 8px #666;
   transform: translateY(4px);
 }
@@ -193,8 +194,8 @@ li.dropdown {
   <ul>
   <li><a href="/">Home</a></li>
   </ul>
-<p>Welcome to the Reaction Time Test</p>
-Click on the green button first, and wait until the background color changes. As soon as it changes, hit the red button
+<p>Test your Reaction time!</p>
+Click on "Start" first, and wait until the background color changes. As soon as it changes, hit "stop!"
 
 <title>Reaction Test</title>
 
