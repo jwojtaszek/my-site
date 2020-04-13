@@ -42,7 +42,7 @@ function stopTest()
 		var responseTime=(endTime.getTime()-startTime.getTime())/1000;
 
 		document.body.style.background="white";       
-		alert("Your response time is: " + responseTime + " seconds " + "\n" + remark(responseTime));
+		alert("Time: " + responseTime*1000 + " ms " + "\n" + remark(responseTime));
 		startPressed=false;
 		bgChangeStarted=false;
         document.body.style.backgroundColor = "#212F3C";
