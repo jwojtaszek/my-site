@@ -1,0 +1,191 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#efefef",
+      "text": "#404040"
+    },
+    "button": {
+      "background": "#8ec760",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "href": "http://www.worldometers.info/policy/"
+  }
+})});
+</script> <style type="text/css">
+    .style1 {
+        color: #666666
+    }
+</style>
+<div class="row"> <div class="col-md-8">
+
+<div class="content-inner">
+<style>
+    .number-table {
+        font-size: 20px;
+        font-weight: bold
+    }
+
+    .number-table-main {
+        font-size: 24px;
+        font-weight: bold
+    }
+</style>
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<style type="text/css">
+    <!--
+    .source { }
+
+    .style2 {
+        color: #FF0000
+    }
+
+    .style4 {
+        color: #FF0000;
+        font-weight: bold;
+    }
+
+    .style6 {
+        font-size: 12px;
+        color: #bbb;
+        font-weight: bold;
+    }
+
+    .source1 {
+        font-size: 12px;
+        color: #bbb;
+    }
+
+    .source1 {
+        font-size: 12px;
+        color: #bbb;
+    }
+
+    .source11 {
+        font-size: 12px;
+        color: #bbb;
+    }    .source111 {
+       
+    } .source1111 {
+        font-size: 12px;
+        color: #bbb;
+    }
+
+
+
+    -->
+</style>
+</div>
+
+
+<style>
+    .panel_flip {
+        position: relative;
+        height: 100%;
+    }
+
+    .panel_front {
+
+        height: inherit;
+        position: absolute;
+        top: 0;
+        -webkit-transform: rotateX(0deg) rotateY(0deg);
+        -moz-transform: rotateX(0deg) rotateY(0deg);
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+
+    .panel_back {
+
+        height: inherit;
+        position: absolute;
+        top: 0;
+        -webkit-transform: rotateY(-180deg);
+        -moz-transform: rotateY(-180deg);
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -webkit-transition: all .4s ease-in-out;
+        -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+
+    .panel_flip.flip .panel_front {
+
+        z-index: 900;
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+    }
+
+    .panel_flip.flip .panel_back {
+
+        z-index: 1000;
+        -webkit-transform: rotateX(0deg) rotateY(0deg);
+        -moz-transform: rotateX(0deg) rotateY(0deg);
+    }
+</style>
+<script>
+    $(function() {
+
+        $('.flip_cases_front').on('click', function() {
+
+
+            $(this).parent().parent().addClass('flip');
+        });
+
+        $('.flip_cases_back').on('click', function() {
+
+
+            $(this).parent().parent().removeClass('flip');
+        });
+    });
+</script>
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" style="text-align:center">
+<span class="panel-title" style="font-size:18px; text-transform:uppercase; font-weight:100">
+Active Cases
+</span>
+</div>
+<div class="panel-body" style="text-align:center; height:200px;">
+<div class="panel_flip">
+<div class="panel_front" style="width:100%;height:100%;">
+<div class="number-table-main">2,379,472</div>
+<div style="font-size:13.5px">Currently Infected Patients</div>
+<div style="padding-top:20px;position:relative;text-align:center; ">
+<div style="float:left; text-align:center">
+<span class="number-table" style="color:#8080FF">2,331,791</span> (<strong>98</strong>%)
+<div style="font-size:13px">in Mild Condition</div><br>
+</div>
+<div style="float:right; text-align:center"><span class="number-table" style="color:red ">47,681</span> (<strong>2</strong>%)
+<div style="font-size:13px">Serious or Critical</div><br>
+
+
+
+
+</body>
+</html>
